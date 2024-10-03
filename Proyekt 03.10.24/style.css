@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+navbar {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(54, 54, 76);
+}
+
+.left_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: first baseline;
+    gap: 5px;
+}
+
+.left_nav h1{
+    color: rgb(68, 0, 255);
+    font-family: sans-serif;
+}
+
+.left_nav p{
+    color: rgb(94, 35, 255);
+    font-family: sans-serif;
+}
+
+.right_nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.right_nav ul li{
+    list-style: none;
+}
+
+.right_nav ul li a{
+    text-decoration: none;
+    color: rgb(94, 35, 255);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .counter-container {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  #count {
+    font-size: 48px;
+    margin: 20px 0;
+  }
+
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #decrement {
+    background-color: red;
+    color: white;
+  }
+
+  #reset {
+    background-color: gray;
+    color: white;
+  }
+
+  #increment {
+    background-color: green;
+    color: white;
+  }
+
+.container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.heading2 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.text{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.paragraph {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgb(55, 65, 81);
+}
+
+.heading-3 {
+    margin-top: 20px;
+}
+
+button {
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+button, a {
+    text-decoration: none;
+    color: white;
+}
+
+.Preview {
+    font-size: 15px;
+    font-weight: 900;
+    background-color: yellow;
+}
+
+.Github {
+    font-size: 15px;
+    font-weight: 900;
+    background-color: red;
+    margin-bottom: 70px;
+}
+
+.Preview:hover {
+    background-color: green;
+}
+
+.Github:hover {
+    background-color: blue;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(214, 206, 206);
+    height: 90px;
+    margin: 0 auto;
+}
+
+footer, p {
+    font-size: 20px;
+}
